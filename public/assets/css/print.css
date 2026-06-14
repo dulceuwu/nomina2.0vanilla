@@ -1,0 +1,9 @@
+@media print {
+    body { background: #fff; font-size: 11pt; }
+    .navbar, .recibo-acciones, .no-print, .toast { display: none !important; }
+    .contenedor-app { max-width: 100%; padding: 0; margin: 0; }
+    .recibo { border: none; box-shadow: none; padding: 16px; max-width: 100%; }
+    .recibo-neto { background: none; border: 1px solid #000; }
+    table { page-break-inside: auto; }
+    tr { page-break-inside: avoid; page-break-after: auto; }
+}

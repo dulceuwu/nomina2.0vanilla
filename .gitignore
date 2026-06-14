@@ -1,0 +1,22 @@
+# Environment
+.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+error_log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Project specific
+/public/includes/libs/tcpdf/  # Include if managing TCPDF separately

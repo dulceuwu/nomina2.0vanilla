@@ -142,7 +142,7 @@
 </ul>
 
 <h2 id="prestaciones">9. Prestaciones</h2>
-<p>Prestaciones sociales: Antiguedad (15 dias/ano), Cesantia (15), Vacaciones (15 + 1 adicional), Utilidades (30), Bono Vacacional (7), Intereses sobre Prestaciones.</p>
+<p>Prestaciones sociales: Antiguedad (15 dias/año), Cesantia (15), Vacaciones (15 + 1 adicional), Utilidades (30), Bono Vacacional (7), Intereses sobre Prestaciones.</p>
 
 <h2 id="empleados">10. Empleados</h2>
 <p>Gestion de empleados y administradores. Datos personales (cedula, nombre, email, telefono, direccion, fecha nacimiento) y laborales (rol, fecha ingreso, cargo, salario personalizado). Se asignan deducciones, asignaciones y prestaciones especificas.</p>

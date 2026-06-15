@@ -50,7 +50,7 @@ include __DIR__ . '/../includes/navbar.php';
             <div class="form-grupo">
                 <label for="tipo_calculo">Tipo de Calculo *</label>
                 <select name="tipo_calculo" id="tipo_calculo" required onchange="mostrarCampoCalculo()">
-                    <option value="dias_ano" <?php echo $prestacion['tipo_calculo'] === 'dias_ano' ? 'selected' : ''; ?>>Dias por Ano</option>
+                    <option value="dias_ano" <?php echo $prestacion['tipo_calculo'] === 'dias_ano' ? 'selected' : ''; ?>>Dias por Año</option>
                     <option value="porcentaje" <?php echo $prestacion['tipo_calculo'] === 'porcentaje' ? 'selected' : ''; ?>>Porcentaje</option>
                     <option value="fijo" <?php echo $prestacion['tipo_calculo'] === 'fijo' ? 'selected' : ''; ?>>Monto Fijo</option>
                 </select>
@@ -59,7 +59,7 @@ include __DIR__ . '/../includes/navbar.php';
 
         <div class="form-row" id="campo-calculo">
             <div class="form-grupo" id="grupo-dias">
-                <label for="dias_ano">Dias por Ano</label>
+                <label for="dias_ano">Dias por Año</label>
                 <input type="number" name="dias_ano" id="dias_ano" min="0" max="365"
                        value="<?php echo htmlspecialchars($prestacion['dias_ano'] ?? '', ENT_QUOTES, 'UTF-8'); ?>"
                        placeholder="15">

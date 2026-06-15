@@ -67,10 +67,10 @@ include __DIR__ . '/../includes/navbar.php';
                 <tr>
                     <td><?php echo htmlspecialchars($p['codigo'], ENT_QUOTES, 'UTF-8'); ?></td>
                     <td><strong><?php echo htmlspecialchars($p['nombre'], ENT_QUOTES, 'UTF-8'); ?></strong></td>
-                    <td><span class="badge badge-info"><?php echo str_replace('_', ' ', ucfirst($p['tipo_calculo'])); ?></span></td>
+                    <td><span class="badge badge-info"><?php echo $p['tipo_calculo'] === 'dias_ano' ? 'Dias año' : str_replace('_', ' ', ucfirst($p['tipo_calculo'])); ?></span></td>
                     <td>
                         <?php if ($p['dias_ano']): ?>
-                            <?php echo $p['dias_ano']; ?> dias/ano
+                            <?php echo $p['dias_ano']; ?> dias/año
                         <?php elseif ($p['porcentaje']): ?>
                             <?php echo number_format($p['porcentaje'] ?? 0, 2); ?>%
                         <?php elseif ($p['monto_fijo']): ?>

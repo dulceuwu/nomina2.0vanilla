@@ -223,7 +223,7 @@ include __DIR__ . '/../includes/navbar.php';
                 <div class="concepto-info">
                     <div class="concepto-nombre"><?php echo htmlspecialchars($p['nombre'], ENT_QUOTES, 'UTF-8'); ?></div>
                     <div class="concepto-detalle">
-                        <?php echo $p['tipo_calculo'] === 'dias_ano' ? ($p['dias_ano'] ?? '') . ' dias/ano' : 'Formula'; ?>
+                        <?php echo $p['tipo_calculo'] === 'dias_ano' ? ($p['dias_ano'] ?? '') . ' dias/año' : 'Formula'; ?>
                     </div>
                 </div>
             </label>
